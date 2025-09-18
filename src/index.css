@@ -1,0 +1,9 @@
+/* src/index.css */
+/* Tailwind MUST be the first lines */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* No stray display:flex here. Keep it clean. */
+html, body, #root { height: 100%; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
